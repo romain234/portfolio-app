@@ -1,0 +1,182 @@
+<app-competencepage id="pageCompetences" class="hide"></app-competencepage>
+
+<div class="container" id="presentation">
+    <div class="col-6" id="presentation-text">
+        <h1>Bonjour, je m'appelle <br><b>Romain So</b>, j'ai 21 ans et <br>je suis actuellement en <br><b>troisème année de BUT MMI.</b></h1>
+        <button class="btn-full" id="btn-cv">Télécharger mon CV</button>
+    </div>
+    <div class="col-6" id="presentation-img"><img src="/assets/img/romain.png" alt="" id="img-romain"></div>
+</div>
+
+<h2 class="title" id="compétences">Compétences</h2>
+<div class="container-center">
+    <div class="col-3 div-comp" (click)="afficherPlus(1)">
+        <div class="container-center">
+            <img class="img-comp" src="/assets/img/icone_3D.png" alt="">
+        </div>
+        <h3>3D</h3>
+        <p class="txt-secondary">J’ai toujours été fasciné par la 3D. La liberté qu’offre la 3D de pouvoir créer une scène de A à Z laisse une place infinie à la créativité.</p>
+        <p (click)="afficherPlus(1)" class="link">En savoir plus</p>
+    </div>
+    <div class="col-3 div-comp" (click)="afficherPlus(2)">
+        <div class="container-center">
+            <img class="img-comp" src="/assets/img/icone_dev.png" alt="">
+        </div>
+        <h3>Développement</h3>
+        <p class="txt-secondary">Initié au développement lors de mes cours de NSI au lycée, j’ai très vite aimé créer mes premières pages et mes premiers sites.</p>
+        <p (click)="afficherPlus(2)" class="link">En savoir plus</p>
+    </div>    
+    <div class="col-3 div-comp" (click)="afficherPlus(3)">
+        <div class="container-center">
+            <img class="img-comp" src="/assets/img/icone_montage.png" alt="">
+        </div>
+        <h3>Montage</h3>
+        <p class="txt-secondary">D’abord appris en autodidacte, j’ai renforcé mes compétences en montage lors de ma formation en MMI puis lors de stages.</p>
+        <p (click)="afficherPlus(3)" class="link">En savoir plus</p>
+    </div>    
+    <div class="col-3 div-comp" (click)="afficherPlus(4)">
+        <div class="container-center">
+            <img class="img-comp" src="/assets/img/icone_design.png" alt="">
+        </div>
+        <h3>Graphisme</h3>
+        <p class="txt-secondary">J'ai appris à maîtriser Photoshop à 15 ans grâce à des vidéos Youtube. Aujourd'hui, je maîtrise en plus Figma, InDesign et Illustrator. </p>
+        <p (click)="afficherPlus(4)" class="link">En savoir plus</p>
+    </div>
+</div>
+
+<div id="projets">
+    <div class="container" id="projets-container">
+        <div class="col-5 container-center column">
+            <img src="/assets/img/projets_icone.png" alt="" id="img-projet">
+            <h2 class="title" id="titre-projet">Projets</h2>
+            <p class="center">Dans le cadre de ma formation ou pendant mon temps libre, j’ai eu l’occasion de créer plusieurs projets sur les
+             différents domaines que je maîtrise. </p>
+             <button class="btn-full" (click)="goToProjects('')">Voir projets</button>
+        </div>
+        <div class="col-7 container">
+            <div class="col-6 column container-center" id="left-project-container">
+                
+                <div class="projet-presentation">
+                    <div class="container no-padding">
+                        <img src="/assets/img/icon_iut.png" alt="" class="icon-project">
+                        <div class="column">
+                            <p class="txt-tertiary"><i>Développement</i></p>
+                            <h4>Site JPO IUT de Meaux</h4>
+                        </div>
+                    </div>
+                    <p class="txt-secondary">Dans le cadre d’une SAE, j’ai dû, en collaboration avec 4 étudiants, réaliser le site de l’université de Meaux pour sa Journée Portes Ouvertes</p>
+                    <button class="btn-secondary align-right" (click)="goToProjects('2')">Voir le projet</button>
+                </div>
+                
+                <div class="projet-presentation">
+                    <div class="container no-padding">
+                        <img src="/assets/img/icon_chambre.png" alt="" class="icon-project">
+                        <div class="column">
+                            <p class="txt-tertiary"><i>3D</i></p>
+                            <h4>Chambre isométrique</h4>
+                        </div>
+                    </div>
+                    <p class="txt-secondary">Ayant l’envie d’apprendre a maîtriser le logiciel Blender, j’ai décidé de modéliser ma chambre en isométrique pour m’exercer</p>
+                    <button class="btn-secondary align-right" (click)="goToProjects('3')">Voir le projet</button>
+                </div>
+    
+            </div>
+            <div class="col-6 column container-center">
+    
+                <div class="projet-presentation">
+                    <div class="container no-padding">
+                        <img src="/assets/img/icon_sac.png" alt="" class="icon-project">
+                        <div class="column">
+                            <p class="txt-tertiary"><i>Montage</i></p>
+                            <h4>Vidéo Sac d'évacuation</h4>
+                        </div>
+                    </div>
+                    <p class="txt-secondary">Lors de mon stage de deuxième année, j’ai réalisé un film en motion design pour faire adopter les bons réflexes en cas de catastrophe. </p>
+                    <button class="btn-secondary align-right" (click)="goToProjects('4')">Voir le projet</button>
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+</div>
+
+<h2 class="title" id="experiences">Expériences professionnelles</h2>
+
+    <div id="experience-main-container">
+        <div class="container column experiences-container">
+            <h2>Stages à Label Factory</h2>
+                <div class="container experience-header">
+                    <h4 class="txt-tertiary">Rôle: </h4>
+                    <h4 class="h4apropos">Monteur vidéo</h4>
+                </div>
+                <div class="container experience-header">
+                    <h4 class="txt-tertiary">Durée: </h4>
+                    <h4 class="h4apropos">4 et 11 semaines</h4>
+                </div>
+            <p class="txt-secondary" class="description-apropos"> 
+                Au cours de ma formation, j'ai réalisé deux stages dans la société de production Label Factory.  
+                Ces stages m'ont initié à la vie professionnelle, et m'ont permis d’approfondir mes connaissances sur les différents logiciels 
+                de la suite Adobe. J’y ai notamment effectué le montage de films, la 
+                création de films en motion design, participé à des tournages mais aussi créer des éléments 3D .</p>
+            <div class="experience-img">
+                <img src="/assets/logos/Pr.png" alt="logo de Premiere Pro">
+                <img src="/assets/logos/ae.png" alt="logo de After Effect">
+                <img src="/assets/logos/ps.png" alt="logo de Photoshop">
+                <img src="/assets/logos/c4d.png" alt="logo de Cinema4D">
+            </div>
+        </div>
+    
+        <div class="container column experiences-container">
+            <h2>Stage Agglomération Roissy Pays de France</h2>
+            <div class="container experience-header">
+                <h4 class="txt-tertiary">Rôle: </h4>
+                <h4 class="h4apropos">Monteur vidéo / Graphiste</h4>
+            </div>
+            <div class="container experience-header">
+                <h4 class="txt-tertiary">Durée: </h4>
+                <h4 class="h4apropos"> 3 mois</h4>
+            </div>
+            <p class="txt-secondary" class="description-apropos"> 
+                Entre octobre 2024 et janvier 2025, j’ai réalisé un stage à l’agglomération Roissy Pays de France. 
+                J’étais chargé de la digitalisation des commerçants, c'est-à-dire que je les aidais à avoir une présence 
+                et une identité sur Internet, que ce soit par des sites, des vidéos, des posts pour les réseaux sociaux ou 
+                des logos.</p>
+            <div class="experience-img">
+                <img src="/assets/logos/Pr.png" alt="logo de Premiere Pro">
+                <img src="/assets/logos/ae.png" alt="logo de After Effect">
+                <img src="/assets/logos/Ai.png" alt="logo de Adobe Illusrator">
+                <img src="/assets/logos/ps.png" alt="logo de Photoshop">
+            </div>
+        </div>
+    </div>
+
+<div id="apropos" class="container column">
+    <h2 class="title">A propos de moi</h2>
+    <h4>Passionné par l’informatique depuis tout jeune, j’ai choisi de choisir la spécialité Numérique et Science Informatique au lycée. Ces cours m’ont ouvert les portes de la programmation et du développement, pendant que je réalisais mes premiers montage photos et vidéos en parallèle. Naturellement, j’ai choisi de m’orienter vers le BUT MMI car il allie ces domaines. Aujourd’hui, je maîtrise le montage vidéo, la 3D, le graphisme, le développement ainsi que la programmation.
+</h4>
+</div>
+
+<div id="veille" class="container column">
+    <h2 class="title">Veille technologie</h2>
+    <div id="veille-split" class="container-center">
+        <div class="container-center column experience-img">
+            <img src="/assets/logos/artstation.png" alt="">
+            <h4>Artstation</h4>
+        </div>    
+        <div class="container-center column experience-img">
+            <img src="/assets/logos/blenderdevelopers.jpg" alt="">
+            <h4>Blender developers</h4>
+        </div>
+        <div class="container-center column experience-img">
+            <img src="/assets/logos/blendernation.png" alt="">
+            <h4>Blender Nation</h4>
+        </div>
+        
+    </div>
+    <h4>J'effectue ma veille technologique en étant abonné à plusieurs newsletters qui me permettent d'être au courant des nouveautés
+        dans le domaine de la 3D, du montage vidéo et du graphisme. Je suis également abonné à des comptes Youtube et Instagram
+        qui me permettent de suivre les actualités des logiciels que j'utilise.
+    </h4>
+
+</div>

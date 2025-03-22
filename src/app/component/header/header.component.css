@@ -1,0 +1,46 @@
+hr {
+    background-color: #EEEDFF;
+    width: 2px;
+    height: 40px;
+    opacity: 1;
+}
+
+.txt-header{
+    font-weight:normal;
+    text-align: center;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+#sticky {
+    position: sticky;
+    top: 50px;
+    z-index: 5;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: rgba(8,11,35,0.8);
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    border-radius: 25px;
+}
+
+#img-header {
+    object-fit: contain;
+    height: 50px;
+}
+
+#left-header {
+    margin-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEDFF;
+}

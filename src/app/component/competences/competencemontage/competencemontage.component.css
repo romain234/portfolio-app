@@ -1,0 +1,56 @@
+.title{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.titre-logiciel{
+    margin-top: 20px;
+}
+
+#competence-presentation{
+    height: fit-content;
+    margin: auto;
+    background-color: #EEEDFF;
+    width: 90%;
+    color: #202341;
+    border-radius: 25px;
+    padding-bottom: 40px;
+}
+
+#competence-presentation img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+#competence-presentation h1, h3,h4 {
+    color: #202341;
+}
+
+#img-container{
+width: 80%;
+justify-content: space-between;
+margin-top: 20px;
+}
+#img-container img{
+    object-fit: contain;
+    height: 70px;
+    aspect-ratio: 3/2;
+
+}
+
+#button{
+    width: 40px;
+    height: 40px;
+    background-color: #EEEDFF;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+#button img{
+    object-fit: contain;
+    height: 80%;
+}
+#button-project{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}

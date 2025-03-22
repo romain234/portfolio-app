@@ -1,0 +1,330 @@
+body {
+    background-color: #0A0E2B;
+}
+
+h1, h2, h3, h4, p {
+    color: #EEEDFF;
+}
+h1{
+    font-weight: normal;
+    font-size: 2.8rem;
+}
+
+.title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1.8rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.2rem;
+}
+
+.txt-secondary{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.txt-tertiary{
+    color: #5A5C7E;
+    margin: 0;
+}
+
+.txt-header {
+    margin: 0;
+}
+
+.txt-competence{
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+#compétences{
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-full{
+    background-color: #00B38A;
+    border: 0px;
+    border-radius: 25px;
+    color: #EEEDFF;
+    padding: 6px 40px;
+
+}
+
+.btn-secondary{
+    border: 3px solid #00B38A;
+    background-color: rgba(0,0,0,0);
+    color: #EEEDFF;
+    border-radius: 25px;
+    padding: 4px 28px;
+    font-size: 0.8rem;
+}
+
+#btn-cv {
+    margin-top: 15px;
+    float: right;
+}
+
+.div-comp{
+    background: linear-gradient(180deg, rgba(32,35,65,1) 0%, rgba(15,22,50,0.75) 100%);
+    width: 20%;
+    margin: auto 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#img-romain {
+    width: 70%;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+}
+
+.img-comp{
+    align-items: center;
+    width: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.link {
+    color: #00B38A;
+    text-align: center;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#projets{
+    padding-top: 100px;
+}
+
+#projets-container{
+    background: linear-gradient(180deg, rgba(32,35,65,1) 0%, rgba(15,22,50,0.75) 100%);
+    height: fit-content;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.project{
+    aspect-ratio: 4/1;
+    background: rgb(32,35,65);
+}
+
+#titre-projet{
+    margin-bottom: 15px;
+}
+
+.center{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+section {
+    border-right: 50px solid #202341;
+    border-bottom: 250px solid transparent;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.project-3 {
+    aspect-ratio: 1/1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-project{
+    height: 100%;
+}
+
+.list-projects{
+    list-style: none;
+    width: fit-content;
+    width: 70%;
+    gap: 1em;
+}
+.presentation-container{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(32,35,65,1) 0%, rgba(15,22,50,0.75) 100%);
+}
+
+#presentation-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#presentation-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-presentation{
+    margin: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.type img {
+    width: 50px;
+    height: 50px;
+}
+
+.type p{
+    margin: auto;
+}
+
+.type div {
+    display: flex;
+    height: fit-content;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.icon-project {
+    height: 57px;
+    margin-right: 5px;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.align-right{
+    position: absolute;
+    right: 15px;
+}
+
+.projet-presentation{
+    position: relative;
+    padding: 15px;
+}
+
+#left-project-container{
+    justify-content: space-evenly;
+}
+
+#img-projet {
+    width: 50%;
+}
+
+#experiences{
+    padding-top: 100px;
+}
+
+#experience-main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experiences-container{
+    width: 35%;
+    height: fit-content;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(32,35,65,1) 0%, rgba(15,22,50,0.75) 100%);
+    padding: 30px 40px 50px 40px;
+    margin: 0;
+    margin-bottom: 70px;
+
+}
+
+#experiences-left{
+    width: max-content;
+}
+
+.experience-header{
+    display: flex;
+}
+
+.experience-header h4 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1.5em;
+    max-width: fit-content;
+}
+
+.experience-img {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.experience-img img{
+    aspect-ratio: 3/2;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin: 20px 0px 20px 0;
+}
+
+#experiences .txt-secondary{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#experiences .container{
+    margin-top: 10px;
+}
+
+.description-apropos{
+    margin-top: 20px;
+}
+
+.hide{
+    display: none !important;
+}
+
+#apropos , #veille{
+    width: 80%;  
+    text-align: justify;
+}
+
+#apropos h4, #veille h4{
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#veille {
+    margin-top: 70px;
+}
+
+#veille-split{
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}

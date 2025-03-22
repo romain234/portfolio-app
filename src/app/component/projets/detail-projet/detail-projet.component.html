@@ -1,0 +1,48 @@
+<div *ngIf="projet" class="container-center row col-12">
+  <p id="fil" class="col-10"><a (click)="goToMain()">Accueil </a>-<a (click)="goToProjetList()"> Projets </a>- {{projet.nom}}</p>
+  <div class="container row col-8" id="projet">  
+    <h2 class="title"><b>{{projet.nom}}</b></h2>
+    <img [src]="projet.imgSrc">
+    
+    <div [ngSwitch]="tab">
+      <div *ngSwitchCase="1">3D
+        <h4>Logiciel utilisé: {{projet.technologie}}</h4>
+        <h4>Description:</h4><p id="projet-descrption">{{projet.description}}</p>
+      </div>
+
+      <div *ngSwitchCase="2">Dev
+        <h4>Technologie(s) utilisé(s): {{projet.technologie}}</h4>
+        <h4>Description:</h4><p id="projet-descrption">{{projet.description}}</p>
+        <a href="https://romain234.github.io/saejpo/"><h4>Voir le site:</h4><p id="projet-description">{{projet.images}}</p></a>
+      </div>
+
+      <div *ngSwitchCase="3">Montage
+        <h4>Logiciels utilisés: {{projet.technologie}}</h4>
+        <h4>Description:</h4>
+        <p id="projet-descrption">{{projet.description}}</p>
+        <h4>Vidéos:</h4>
+        <div class="videos-grid">
+          <div class="video-container" *ngFor="let videoUrl of projet.images">
+            <iframe 
+              [src]="getSafeUrl(videoUrl)"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div *ngSwitchCase="4">Design
+        <h4>Logiciel(s) utilisé(s): {{projet.technologie}}</h4>
+        <h4>Description:</h4><p id="projet-descrption">{{projet.description}}</p>
+      </div>
+
+  </div>
+
+
+    <button class="btn-secondary" id="btn-detail-projet" (click)="goToProjetList()">Retour</button>
+
+
+    <h4 *ngIf='!projet' class="center">Aucun projet à afficher !</h4>
+  </div>
+</div>

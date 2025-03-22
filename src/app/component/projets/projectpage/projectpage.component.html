@@ -1,0 +1,22 @@
+<div class="container container-center column" (activate)="onActivate($event)">
+    <ul class="container column list-projects">
+        <li *ngFor="let projet of projetsList">
+          <div (click)="goToProjet(projet)" class="project row">
+            <div class="col-3 project-3">
+                <img src="{{projet.imgSrc}}" alt="" class="img-project">
+                <section></section>
+            </div>
+            <div class="col-9 presentation-container">
+                <div class="text-presentation">
+                    <h4>{{projet.nom}}</h4>
+                    <div><p>Technologie(s) utilisée(s): {{projet.technologie}}</p></div>
+                </div>
+                <div class="type">
+                    <div><img src="{{projet.domaineImg}}" alt=""><p class="txt-tertiary">{{projet.domaine}}</p></div>
+                </div>
+            </div>
+        </div>
+        </li>
+    </ul>
+</div>
+

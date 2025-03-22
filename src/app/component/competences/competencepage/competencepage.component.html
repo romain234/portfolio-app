@@ -1,0 +1,20 @@
+<div id="body">
+    <div class="container column" id="page-container">
+        <div onclick="afficherMoins()" class="container-center" id="button"><img src="/assets/img/x.png" alt=""></div>
+        <nav class="container">
+            <div id="nav1" class="col-3" (click)="changetab(1)"><h4>3D</h4></div>
+            <div id="nav2" class="col-3" (click)="changetab(2)"><h4>Dev</h4></div>
+            <div id="nav3" class="col-3" (click)="changetab(3)"><h4>Montage</h4></div>
+            <div id="nav4" class="col-3" (click)="changetab(4)"><h4>Graphisme</h4></div>
+        </nav>
+
+    </div>
+
+    <div [ngSwitch]="tab">
+        <app-competence3d *ngSwitchCase=""></app-competence3d>
+        <app-competence3d *ngSwitchCase="1"></app-competence3d>
+        <app-competencedev *ngSwitchCase="2"></app-competencedev>
+        <app-competencemontage *ngSwitchCase="3"></app-competencemontage>
+        <app-competencegraphisme *ngSwitchCase="4"></app-competencegraphisme>
+    </div>
+</div>
