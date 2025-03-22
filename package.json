@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "npm run github-pages",
+    "github-pages": "ng build --base-href=/portfolio-app/ --output-path docs --configuration production",
   },
   "private": false,
   "dependencies": {
