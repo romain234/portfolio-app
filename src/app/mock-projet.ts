@@ -2,7 +2,7 @@ import { Projet } from './project';
   
 export const PROJETS: Projet[] = [
     {
-        id: 0,
+        id: 20,
         nom: "Présentation VSJ Natation",
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
