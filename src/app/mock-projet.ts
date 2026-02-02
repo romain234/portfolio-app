@@ -3,14 +3,14 @@ import { Projet } from './project';
 export const PROJETS: Projet[] = [
     {
         id: 0,
-        nom: "Cartes Cadeaux Roissy Pays de France",
+        nom: "Présentation VSJ Natation",
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
-        imgSrc: "assets/img/LeFranklin.jpg",
-        description: "Afin de promouvoir des cartes cadeaux offrant 20% de réduction, l’agglomération de Roissy Pays de France souhaitait créer des vidéos pour présenter les commerces partenaires pour mettre en avant les commerçants et les cartes cadeaux. J’ai donc imaginé, filmé, écrit puis monté des vidéos présentant 5 commerces. Pour chaque restaurant, boulangerie et opticien, j’ai réalisé un storyboard afin de savoir comment mettre en avant les spécificités de chaque commerce, que ce soit en images où avec la voix-off.",
-        technologie: ["Premiere Pro"],
-        images: ["https://www.youtube.com/watch?v=y8KIkqv3kaw", "https://youtu.be/CaHv6yMLoI4","https://youtu.be/K-ck1Wcs5ds","https://youtu.be/GEfRaoAwv_g","https://youtu.be/wieMKStBHAk"],
-    }, 
+        imgSrc: "assets/img/Dashboard_VSJ.png",
+        description: "Au cours d’un projet de groupe universitaire, j’ai été amené à travailler sur la refonte d’un site de piscine appelé VSJ Natation. Pour faire la présentation des nouvelles fonctionnalités du site, j’ai réalisé une vidéo en motion design avec After Effect. J’ai réalisé deux versions : verticale et horizontale pour adapter la vidéo à tous les médias de diffusions (Youtube, TikTok, Instagram, …).",
+        technologie: ["After Effect", " Premiere Pro"],
+        images: ["https://youtu.be/A2JB6EZNwoA","https://youtube.com/shorts/A9r1Og5NCeA?feature=share"],
+    },
     {
         id: 1,
         nom: "Rendu réaliste",
@@ -43,13 +43,13 @@ export const PROJETS: Projet[] = [
     },
     {
         id: 4,
-        nom: "Sac d'évacuation",
+        nom: "Cartes Cadeaux Roissy Pays de France",
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
-        imgSrc: "assets/img/illu-sac.png",
-        description: "Lors d’un stage, j’ai dû réaliser un film de prévention afin de conseiller au public de préparer un sac d’évacuation. Ce sac doit contenir le nécessaire si l’on doit quitter notre domicile d’urgence (incendie, catastrophe naturelle,etc..). J’ai donc réalisé ce film en motion design avec After Effect et Premiere Pro.",
-        technologie: ["After Effect", " Premiere Pro"],
-        images: ["https://youtu.be/6Zk1FMDPVQo"],
+        imgSrc: "assets/img/LeFranklin.jpg",
+        description: "Afin de promouvoir des cartes cadeaux offrant 20% de réduction, l’agglomération de Roissy Pays de France souhaitait créer des vidéos pour présenter les commerces partenaires pour mettre en avant les commerçants et les cartes cadeaux. J’ai donc imaginé, filmé, écrit puis monté des vidéos présentant 5 commerces. Pour chaque restaurant, boulangerie et opticien, j’ai réalisé un storyboard afin de savoir comment mettre en avant les spécificités de chaque commerce, que ce soit en images où avec la voix-off.",
+        technologie: ["Premiere Pro"],
+        images: ["https://www.youtube.com/watch?v=y8KIkqv3kaw", "https://youtu.be/CaHv6yMLoI4","https://youtu.be/K-ck1Wcs5ds","https://youtu.be/GEfRaoAwv_g","https://youtu.be/wieMKStBHAk"],
     },
     {
         id: 5,
@@ -83,13 +83,13 @@ export const PROJETS: Projet[] = [
     },
     {
         id: 8,
-        nom: "PGAV",
+        nom: "Sac d'évacuation",
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
-        imgSrc: "assets/img/illu-pgav.png",
-        description: "Lors de mon stage, j’ai dû réaliser un film pour la SNCF où je devais mettre en vidéo un rapport de plusieurs pages sur la maintenance de la voie ferrée. Pour cela j’ai modélisé en 3D les différents éléments et outils du rapport puis j’ai recréé chaque cas du rapport, en intégrant des vidéos que la SNCF avait envoyées. J’ai modélisé les éléments avec Cinema 4D puis je les ai intégrés à After Effect avec le plugin 'element 3D'.",
-        technologie: ["After Effect", " Premiere Pro", " Cinema 4D"],
-        images: ["https://www.youtube.com/watch?v=6u4W4av5Wg8"],
+        imgSrc: "assets/img/illu-sac.png",
+        description: "Lors d’un stage, j’ai dû réaliser un film de prévention afin de conseiller au public de préparer un sac d’évacuation. Ce sac doit contenir le nécessaire si l’on doit quitter notre domicile d’urgence (incendie, catastrophe naturelle,etc..). J’ai donc réalisé ce film en motion design avec After Effect et Premiere Pro.",
+        technologie: ["After Effect", " Premiere Pro"],
+        images: ["https://youtu.be/6Zk1FMDPVQo"],
     },
     {
         id: 9,
@@ -113,16 +113,16 @@ export const PROJETS: Projet[] = [
     },
     {
         id: 11,
-        nom: "Les bons réflexes",
+        nom: "PGAV",
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
-        imgSrc: "assets/img/illu-debroussailler.png",
-        description: "Lors de mon stage, j’ai dû réaliser un film de prévention afin d’informer sur les règles d’entretien sur la végétation, afin de ralentir la propagation des incendies. J’ai donc créé ce film en motion design à l’aide d'illustrations trouvées sur Freepik, puis je les ai animées sur After Effect.",
-        technologie: ["After Effect", " Premiere Pro"],
-        images: ["https://youtu.be/M7EMrWwFf8A"],
+        imgSrc: "assets/img/illu-pgav.png",
+        description: "Lors de mon stage, j’ai dû réaliser un film pour la SNCF où je devais mettre en vidéo un rapport de plusieurs pages sur la maintenance de la voie ferrée. Pour cela j’ai modélisé en 3D les différents éléments et outils du rapport puis j’ai recréé chaque cas du rapport, en intégrant des vidéos que la SNCF avait envoyées. J’ai modélisé les éléments avec Cinema 4D puis je les ai intégrés à After Effect avec le plugin 'element 3D'.",
+        technologie: ["After Effect", " Premiere Pro", " Cinema 4D"],
+        images: ["https://www.youtube.com/watch?v=6u4W4av5Wg8"],
     },
     {
-        id: 13,
+        id: 12,
         nom: "Modélisation Carapuce",
         domaine: "3D",
         domaineImg:"assets/img/icone_3D.png",
@@ -130,6 +130,16 @@ export const PROJETS: Projet[] = [
         description: "Pour m’entrainer à modéliser et sculpter des personnages et scène avec Blender, j’ai recréé en 3D une figurine de Carapuce que l’on m’avait offert.",
         technologie: ["Blender"],
         images: [],
+    },
+    {
+        id: 13,
+        nom: "Les bons réflexes",
+        domaine: "Montage",
+        domaineImg:"assets/img/icone_montage.png",
+        imgSrc: "assets/img/illu-debroussailler.png",
+        description: "Lors de mon stage, j’ai dû réaliser un film de prévention afin d’informer sur les règles d’entretien sur la végétation, afin de ralentir la propagation des incendies. J’ai donc créé ce film en motion design à l’aide d'illustrations trouvées sur Freepik, puis je les ai animées sur After Effect.",
+        technologie: ["After Effect", " Premiere Pro"],
+        images: ["https://youtu.be/M7EMrWwFf8A"],
     },
     {
         id: 14,
@@ -141,6 +151,7 @@ export const PROJETS: Projet[] = [
         technologie: ["Figma"],
         images: [],
     },
+
 
     
 ];
