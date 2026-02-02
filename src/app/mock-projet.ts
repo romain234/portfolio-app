@@ -9,7 +9,7 @@ export const PROJETS: Projet[] = [
         imgSrc: "assets/img/Dashboard_VSJ.png",
         description: "Au cours d’un projet de groupe universitaire, j’ai été amené à travailler sur la refonte d’un site de piscine appelé VSJ Natation. Pour faire la présentation des nouvelles fonctionnalités du site, j’ai réalisé une vidéo en motion design avec After Effect. J’ai réalisé deux versions : verticale et horizontale pour adapter la vidéo à tous les médias de diffusions (Youtube, TikTok, Instagram, …).",
         technologie: ["After Effect", " Premiere Pro"],
-        images: ["https://youtu.be/A2JB6EZNwoA",'<iframe width="451" height="802" src="https://www.youtube.com/embed/A9r1Og5NCeA" title="Présentation VSJ Natation Vertical" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'],
+        images: ["https://youtu.be/A2JB6EZNwoA",'https://www.youtube.com/embed/A9r1Og5NCeA'],
     },
     {
         id: 1,
