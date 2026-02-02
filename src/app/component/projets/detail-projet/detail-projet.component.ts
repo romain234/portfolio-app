@@ -42,6 +42,8 @@ export class DetailProjetComponent implements OnInit {
         videoId = url.split('v=')[1].split('&')[0];
       } else if (url.includes('youtu.be/')) {
         videoId = url.split('youtu.be/')[1];
+      } else if (url.includes('/shorts/')) {
+        videoId = url.split('/shorts/')[1].split('?')[0];
       }
       
       if (videoId) {
