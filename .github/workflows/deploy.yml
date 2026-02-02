@@ -21,10 +21,10 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
-        run: npx ng build --configuration production --base-href /portfolio-app/
+        run: npm run build -- --configuration production --base-href /portfolio-app/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist/portfolio-app/browser
+          folder: dist/portfolio-app/browser # Si ça échoue ici, on vérifiera ce chemin après
           branch: gh-pages
