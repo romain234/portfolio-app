@@ -7,7 +7,7 @@ export const PROJETS: Projet[] = [
         domaine: "Montage",
         domaineImg:"assets/img/icone_montage.png",
         imgSrc: "assets/img/Dashboard_VSJ.png",
-        description: "Au cours d’un projet de groupe universitaire, j’ai été amené à travailler sur la refonte d’un site de piscine appelé VSJ Natation. Pour faire la présentation des nouvelles fonctionnalités du site, j’ai réalisé une vidéo en motion design avec After Effect. J’ai réalisé deux versions : verticale et horizontale pour adapter la vidéo à tous les médias de diffusions (Youtube, TikTok, Instagram, …). Lien vers la vidéo verticale : "<a>"https://youtube.com/shorts/A9r1Og5NCeA"<a>",
+        description: "Au cours d’un projet de groupe universitaire, j’ai été amené à travailler sur la refonte d’un site de piscine appelé VSJ Natation. Pour faire la présentation des nouvelles fonctionnalités du site, j’ai réalisé une vidéo en motion design avec After Effect. J’ai réalisé deux versions : verticale et horizontale pour adapter la vidéo à tous les médias de diffusions (Youtube, TikTok, Instagram, …). Lien vers la vidéo verticale : <a href='https://youtube.com/shorts/A9r1Og5NCeA' target='_blank' style='color: #007bff; font-weight: bold;'>Cliquez ici pour voir la vidéo</a>",
         technologie: ["After Effect", " Premiere Pro"],
         images: ["https://youtu.be/A2JB6EZNwoA"],
     },
