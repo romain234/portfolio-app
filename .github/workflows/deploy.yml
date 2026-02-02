@@ -18,7 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npx ng build --configuration production --base-href /portfolio-app/
@@ -26,5 +26,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist/portfolio-app/browser # Vérifiez ce chemin après le premier essai
-          branch: gh-pages # Le build ira dans cette branche spéciale
+          folder: dist/portfolio-app/browser
+          branch: gh-pages
