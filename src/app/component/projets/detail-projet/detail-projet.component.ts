@@ -22,9 +22,6 @@ export class DetailProjetComponent implements OnInit {
 
       if(projetId){
         this.projet= this.projetsList.find(projet => projet.id == +projetId);
-        if (this.projet) {
-        this.safeDescription = this.sanitizer.bypassSecurityTrustHtml(this.projet.description);
-        }
       }
 
       let tab = this.projet?.domaine;  
