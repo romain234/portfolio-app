@@ -19,7 +19,7 @@
       <div *ngSwitchCase="3">Montage
         <h4>Logiciels utilisés: {{projet.technologie}}</h4>
         <h4>Description:</h4>
-        <p id="projet-description" [innerHTML]="safeDescription"></p>
+        <p [innerHTML] id="projet-descrption">{{projet.description}}</p>
         <h4>Vidéos:</h4>
         <div class="videos-grid">
           <div class="video-container" *ngFor="let videoUrl of projet.images">
