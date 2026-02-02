@@ -26,6 +26,9 @@ jobs:
       - name: Build
         run: npm run build -- --configuration production --base-href /portfolio-app/
 
+      - name: Add .nojekyll
+        run: touch dist/portfolio-app/browser/.nojekyll  # Ajoute cette ligne
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
